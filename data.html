@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID-19 Tracker</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="navbar" id="navbar">
+        <div>
+            <ul>
+                <li><a class="logo" href="#">COVID-19</a></li>
+                <li><a class="navItem active" href="index.html">Beranda</a></li>
+                <li><a class="navItem" href="data.html">Data Provinsi</a></li>
+            </ul>
+        </div>
+        
+
+        <div>
+            <p>LAYANAN DARURAT 0811 1211 2112</p>
+        </div>
+    </nav>
+    <div class="d-flex justify-content-center">
+        <div class="spinner-border" role="status" >
+          <span class="sr-only" id="loading"></span>
+        </div>
+      </div>
+      
+    <div class="background">
+        
+        <div class="search">
+            <input type="text" class="keyword" id="keyword" placeholder="Search..">
+        </div>
+    
+        <div class="data-prov">
+            
+        </div>
+
+    </div>
+
+
+    <script src="js/data.js"></script>
+    <script src="js/navbar.js"></script>
+</body>
+</html>
