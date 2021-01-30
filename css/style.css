@@ -62,13 +62,20 @@ body{
 
 
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 700px){
     .navbar {
         display: flex;
         flex-direction: column;;
     }
     .navbar ul {
         height: 50px;
+    }
+
+    .containerDetail{
+        text-align:center;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
     }
  }
 
