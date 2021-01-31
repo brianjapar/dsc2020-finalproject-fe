@@ -60,7 +60,26 @@ body{
     color: black;
 }
 
-
+@media screen and (max-width: 550px){
+    .navbar {
+        display: flex;
+        flex-direction: column;;
+    }
+    .navbar ul {
+        height: 50px;
+    }
+    .containerDetail{
+        text-align:center;
+        display: flex;
+        flex-wrap: wrap;    
+        flex-direction: column;
+        margin: 0 auto;
+    }
+  
+    
+  
+    
+}
 
 @media screen and (max-width: 700px){
     .navbar {
@@ -77,6 +96,7 @@ body{
         flex-wrap: wrap;
         flex-direction: column;
     }
+
  }
 
 .section{
@@ -106,7 +126,7 @@ body{
 .containerDetail{
     display: flex;
     justify-content: space-between;
-    margin: 0 150px;
+    margin: auto;
     padding-bottom: 120px;
 }
 
@@ -116,6 +136,7 @@ body{
     background-color: white;
     border-radius: 10px;
     box-shadow:5px 5px 10px gray;
+    margin: auto;
     margin-top: 50px;
     text-align: center;
 }
