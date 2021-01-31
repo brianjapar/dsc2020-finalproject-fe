@@ -60,6 +60,28 @@ body{
     color: black;
 }
 
+.containerCase{
+    height: 150px;
+    width: 320px;
+    background-color: white;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 16px -4px gray;
+    text-align: center;
+}
+
+.search input[type=text]{
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    border-radius: 12px;
+    border-color: gray;
+    
+}
+
 @media screen and (max-width: 550px){
     .navbar {
         display: flex;
@@ -75,10 +97,29 @@ body{
         flex-direction: column;
         margin: 0 auto;
     }
+    .containerCase{
+        
+        height: 150px;
+        width: 250px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow:5px 5px 10px gray;
+        margin: auto;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .search input[type=text]{
+        float: inherit;
+        padding: 6px;
+        margin-top: 8px;
+        margin-right: 16px;
+        font-size: 17px;
+        border-radius: 12px;
+        border-color: gray;
+        
+    }
   
-    
-  
-    
 }
 
 @media screen and (max-width: 700px){
@@ -89,7 +130,6 @@ body{
     .navbar ul {
         height: 50px;
     }
-
     .containerDetail{
         text-align:center;
         display: flex;
@@ -97,6 +137,17 @@ body{
         flex-direction: column;
     }
 
+    
+    .search input[type=text]{
+        float: inherit;
+        padding: 6px;
+        margin-top: 8px;
+        margin-right: 16px;
+        font-size: 17px;
+        border-radius: 12px;
+        border-color: gray;
+        
+    }
  }
 
 .section{
@@ -113,16 +164,7 @@ body{
     font-size: 22px;
 }
 
-.containerCase{
-    height: 150px;
-    width: 350px;
-    background-color: white;
-    margin: auto;
-    margin-top: 40px;
-    border-radius: 10px;
-    box-shadow: 0 0 16px -4px gray;
-    text-align: center;
-}
+
 .containerDetail{
     display: flex;
     justify-content: space-between;
@@ -151,16 +193,7 @@ body{
     font-size: 50px;
 }
 
-.search input[type=text]{
-    float: right;
-    padding: 6px;
-    margin-top: 8px;
-    margin-right: 16px;
-    font-size: 17px;
-    border-radius: 12px;
-    border-color: gray;
-    
-}
+
 
 .data-prov{
     padding-top: 120px;
